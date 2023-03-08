@@ -1,6 +1,3 @@
-// A extensão desse arquivo é .d.ts pq vem de types definitions (a ideia aqui é criar um tipo que abstraia a tabela do bd)
-// o arquivo conterá apenas código typescript
-
 // eslint-disable-next-line
 import { Knex } from 'knex'
 
