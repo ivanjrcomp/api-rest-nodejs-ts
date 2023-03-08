@@ -111,7 +111,6 @@ This REST API has only a few routes, as I said, the main objective was to study 
    > | 201 | None | SessionId cookie|
 
    </details>
-<br />
 
 2. **Get list of transactions**
 
@@ -138,7 +137,6 @@ This REST API has only a few routes, as I said, the main objective was to study 
    > | 200 | A JSON object with a 'transactions' property that contains a list of transaction objects | SessionId cookie|
 
    </details>
-<br />
 
 3. **Get a specific transaction**
 
@@ -167,7 +165,6 @@ This REST API has only a few routes, as I said, the main objective was to study 
    > | 200 | A JSON object with a 'transaction' property that contains only specific transaction object | SessionId cookie|
 
    </details>
-<br />
 
 4. **Get transaction's summarize**
 
