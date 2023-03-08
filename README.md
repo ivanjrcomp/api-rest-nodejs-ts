@@ -34,7 +34,7 @@ This repository hosts a REST API project that uses several technologies in order
 
 ## **Summary**
 
-This repository contains a REST API project that allows you to store and retrieve transaction data from a database. The project used TypeScript for efficient and reliable code, Zod for data validation, Knex as ORM solution and Fastify as web framewor. Vitest with Supertest were used to test the application. For additional details, please continue reading.
+This repository contains a REST API project that allows you to store and retrieve transaction data from a database. The project used TypeScript for efficient and reliable code, Zod for data validation, Knex as ORM solution and Fastify as web framework. Vitest with Supertest were used to test the application. For additional details, please continue reading.
 
 ## **Solution**
 
