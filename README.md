@@ -9,7 +9,7 @@
 
 <div align="center">
 
-# **Transactions**
+# **Bank transactions**<br />
 ![Github][github.badge] ![Node.JS][nodejs.badge] ![TypeScript][typeScript.badge] ![Fastify][Fastify.badge] ![SQLite][SQLite.badge] ![Vitest][Vitest.badge]
 ----
 <br />
