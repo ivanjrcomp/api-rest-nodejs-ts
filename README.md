@@ -209,8 +209,6 @@ This REST API has only a few routes, as I said, the main objective was to study 
 > **Warning** <br />
 *This API uses cookies to maintain a kind of session and recognize the user. To access persistent transactions, pass the cookie created during the creation of the first transaction. This mechanism restricts user access to only their own transactions.
 
-In context, all endpoints derives of transactions root address "/transactions".
-
 ## **Test**
 
 To run tests, use the following command:
