@@ -20,7 +20,7 @@ This repository hosts a REST API project that uses several technologies in order
 [Requirements](#requirements) •
 [Quickstart](#quickstart) •
 [API Endpoint Reference](#api-endpoint-reference) •
-[Test](#test) •
+[Test](#test) 
 
 </div>
 
