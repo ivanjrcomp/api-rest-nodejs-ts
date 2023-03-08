@@ -64,7 +64,7 @@ Below are the step-by-step instructions for running the project and accessing th
 
 1. Create a `.env` file with NODE_ENV and DATABASE_URL environment variables*
 2. Install npm packages:<br />
-    + `npm install -D requirements`
+    + `npm install`
 3. Run the command tsup to transpile the TypeScript code to JavaScript. This will generate the JavaScript files in the ./build directory:<br />
     + `node run build`
 4. Once the transpilation is complete, to start the server and access the endpoints, run the following code:<br />
