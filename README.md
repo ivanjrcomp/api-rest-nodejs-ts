@@ -15,7 +15,7 @@
 
 <table>
 <tr>
-<td>
+<td align="center">
 This repository hosts a REST API project that uses several technologies in order to study and implement efficient, maintainable and reliable code.
 </td>
 </tr>
