@@ -88,10 +88,7 @@ This REST API has only a few routes, as I said, the main objective was to study 
    > ``` POST /transactions ```
    >
 
-   </details>
-
-   <details>
-   <summary>Body (JSON Object)</summary>
+   Body (JSON Object)
 
    > | Property | Value |
    > | :---: | ------ |
@@ -125,10 +122,7 @@ This REST API has only a few routes, as I said, the main objective was to study 
    > ``` GET /transactions ```
    >
 
-   </details>
-
-   <details>
-   <summary>Cookie</summary>
+    Cookie
 
     ```text
     sessionId=<sessionCode>; Path=<accepted path>; Expires=<expiration date>;
@@ -157,14 +151,11 @@ This REST API has only a few routes, as I said, the main objective was to study 
 
    Route Parameter (:id): The ID of a valid transaction (e.g., eac8e6b4-7ffa-4974-a987-a713e02bde88)
 
-   </details>
+   Cookie
 
-   <details>
-   <summary>Cookie</summary>
-
-    ```text
-    sessionId=<sessionCode>; Path=<accepted path>; Expires=<expiration date>;
-    ```
+   ```text
+   sessionId=<sessionCode>; Path=<accepted path>; Expires=<expiration date>;
+   ``` 
 
    </details>
 
@@ -187,14 +178,11 @@ This REST API has only a few routes, as I said, the main objective was to study 
    > ``` GET /transactions/summary ```
    >
 
-   </details>
+   Cookie
 
-   <details>
-   <summary>Cookie</summary>
-
-    ```text
-    sessionId=<sessionCode>; Path=<accepted path>; Expires=<expiration date>;
-    ```
+   ```text
+   sessionId=<sessionCode>; Path=<accepted path>; Expires=<expiration date>;
+   ```
 
    </details>
 
