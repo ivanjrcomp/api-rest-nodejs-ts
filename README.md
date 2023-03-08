@@ -87,19 +87,18 @@ This REST API has only a few routes, as I said, the main objective was to study 
    >
    > ``` POST /transactions ```
    >
-
-   Body (JSON Object)
-
+   > Body (JSON Object):
+   >
    > | Property | Value |
    > | :---: | ------ |
    > | title | Transaction description |
    > | amount | Amount of transaction |
    > | type | Transaction type (credit / debit) |
-
-   Body example:
-    ```javascript 
-    {"title": "Example transaction", "amount": 100, "type": "credit" }  
-    ```
+   >
+   > Body example:
+   > ```javascript 
+   > {"title": "Example transaction", "amount": 100, "type": "credit" }  
+   > ```
 
    </details>
 
@@ -120,12 +119,11 @@ This REST API has only a few routes, as I said, the main objective was to study 
    >
    > ``` GET /transactions ```
    >
-
-    Cookie
-
-    ```text
-    sessionId=<sessionCode>; Path=<accepted path>; Expires=<expiration date>;
-    ```
+   >Cookie
+   >
+   >```text
+   >sessionId=<sessionCode>; Path=<accepted path>; Expires=<expiration date>;
+   >```
 
    </details>
 
@@ -146,14 +144,13 @@ This REST API has only a few routes, as I said, the main objective was to study 
    >
    > ``` GET /transactions/:id ```
    >
-
-   Route Parameter (:id): The ID of a valid transaction (e.g., eac8e6b4-7ffa-4974-a987-a713e02bde88)
-
-   Cookie
-
-   ```text
-   sessionId=<sessionCode>; Path=<accepted path>; Expires=<expiration date>;
-   ``` 
+   > Route Parameter (:id): The ID of a valid transaction (e.g., eac8e6b4-7ffa-4974-a987-a713e02bde88)
+   >
+   > Cookie
+   >
+   > ```text
+   > sessionId=<sessionCode>; Path=<accepted path>; Expires=<expiration date>;
+   > ``` 
 
    </details>
 
@@ -174,12 +171,11 @@ This REST API has only a few routes, as I said, the main objective was to study 
    >
    > ``` GET /transactions/summary ```
    >
-
-   **Cookie**
-
-   ```text
-   sessionId=<sessionCode>; Path=<accepted path>; Expires=<expiration date>;
-   ```
+   > Cookie
+   >
+   > ```text
+   > sessionId=<sessionCode>; Path=<accepted path>; Expires=<expiration date>;
+   > ```
 
    </details>
 
