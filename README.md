@@ -13,7 +13,13 @@
 
 ![Github][github.badge] ![Node.JS][nodejs.badge] ![TypeScript][typeScript.badge] ![Fastify][Fastify.badge] ![Vitest][Vitest.badge]
 
+<table>
+<tr>
+<td>
 This repository hosts a REST API project that uses several technologies in order to study and implement efficient, maintainable and reliable code.
+</td>
+</tr>
+</table>
 
 [Summary](#summary) •
 [Solution](#solution) •
