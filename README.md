@@ -119,11 +119,11 @@ This REST API has only a few routes, as I said, the main objective was to study 
    >
    > ``` GET /transactions ```
    >
-   >Cookie
+   > Cookie
    >
-   >```text
-   >sessionId=<sessionCode>; Path=<accepted path>; Expires=<expiration date>;
-   >```
+   > ```text
+   > sessionId=<sessionCode>; Path=<accepted path>; Expires=<expiration date>;
+   > ```
 
    </details>
 
