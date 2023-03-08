@@ -13,6 +13,8 @@
 <br />
 
 ![Github][github.badge] ![Node.JS][nodejs.badge] ![TypeScript][typeScript.badge] ![Fastify][Fastify.badge] ![Vitest][Vitest.badge]
+----
+<br />
 
 <table>
 <tr>
