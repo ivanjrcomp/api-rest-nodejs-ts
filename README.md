@@ -21,6 +21,7 @@ This repository hosts a REST API project that uses several technologies in order
 </td>
 </tr>
 </table>
+<br />
 
 [Summary](#summary) •
 [Solution](#solution) •
