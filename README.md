@@ -62,7 +62,7 @@ Overall, this project was a great learning experience that allowed me to work wi
 
 Below are the step-by-step instructions for running the project and accessing the endpoints specified throughout this document:
 
-1. Create a `.env` file with NODE_ENV and DATABASE_URL environment variables*
+1. Create a `.env` file with NODE_ENV and DATABASE_URL environment variable (check the example for constructing this environment variables file ".env.example")
 2. Install npm packages:<br />
     + `npm install`
 3. Run the command tsup to transpile the TypeScript code to JavaScript. This will generate the JavaScript files in the ./build directory:<br />
@@ -71,9 +71,6 @@ Below are the step-by-step instructions for running the project and accessing th
     + `node ./build/server.js`
 
 <br />
-
-> **Warning** <br />
-> *To run tests, create a .env.test file that will be used alongside vittest (check the examples for constructing this environment variables file)
 
 ## **API Endpoint Reference**
 
@@ -197,6 +194,9 @@ This REST API has only a few routes, as I said, the main objective was to study 
 To run tests, use the following command:
 
 `npm run test`
+
+> **Warning** <br />
+> To run tests, it's mandatory to create a .env.test file that will be used alongside vittest (check the example for constructing this environment variables file ".env.test.example")
 
 [github.badge]: https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white
 [nodejs.badge]: https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white
