@@ -82,7 +82,7 @@ This REST API has only a few routes, as I said, the main objective was to study 
 1. **Create Transaction**
 
    <details>
-   <summary>Request</summary>
+   <summary><u>Request</u></summary>
 
    >
    > ``` POST /transactions ```
@@ -104,7 +104,7 @@ This REST API has only a few routes, as I said, the main objective was to study 
    </details>
 
    <details>
-   <summary>Response</summary>
+   <summary><u>Response</u></summary>
 
    > | Code | Body | Cookie |
    > | :---: | :------:  | :------: |
@@ -115,7 +115,7 @@ This REST API has only a few routes, as I said, the main objective was to study 
 2. **Get list of transactions**
 
    <details>
-   <summary>Request</summary>
+   <summary><u>Request</u></summary>
 
    >
    > ``` GET /transactions ```
@@ -130,7 +130,7 @@ This REST API has only a few routes, as I said, the main objective was to study 
    </details>
 
    <details>
-   <summary>Response</summary>
+   <summary><u>Response</u></summary>
 
    > | Code | Body | Cookie |
    > | :---: | :------:  | :------: |
@@ -141,7 +141,7 @@ This REST API has only a few routes, as I said, the main objective was to study 
 3. **Get a specific transaction**
 
    <details>
-   <summary>Request</summary>
+   <summary><u>Request</u></summary>
 
    >
    > ``` GET /transactions/:id ```
@@ -158,7 +158,7 @@ This REST API has only a few routes, as I said, the main objective was to study 
    </details>
 
    <details>
-   <summary>Response</summary>
+   <summary><u>Response</u></summary>
 
    > | Code | Body | Cookie |
    > | :---: | :------:  | :------: |
@@ -169,13 +169,13 @@ This REST API has only a few routes, as I said, the main objective was to study 
 4. **Get transaction's summarize**
 
    <details>
-   <summary>Request</summary>
+   <summary><u>Request</u></summary>
 
    >
    > ``` GET /transactions/summary ```
    >
 
-   Cookie
+   **Cookie**
 
    ```text
    sessionId=<sessionCode>; Path=<accepted path>; Expires=<expiration date>;
@@ -184,7 +184,7 @@ This REST API has only a few routes, as I said, the main objective was to study 
    </details>
 
    <details>
-   <summary>Response</summary>
+   <summary><u>Response</u></summary>
 
    > | Code | Body | Cookie |
    > | :--: | :------:  | :------: |
