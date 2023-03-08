@@ -1,11 +1,10 @@
 {
-  "name": "02-api-rest-nodejs",
+  "name": "api-rest-nodejs-ts",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "prod": "npx tsc src/server.ts & node --watch src/server.js",
     "build": "tsup src --out-dir build",
     "knex": "node --no-warnings --loader tsx ./node_modules/.bin/knex",
     "lint": "eslint src --ext .ts --fix",
