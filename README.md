@@ -10,7 +10,7 @@
 <div align="center">
 
 # **Transactions**
-![Github][github.badge] ![Node.JS][nodejs.badge] ![TypeScript][typeScript.badge] ![Fastify][Fastify.badge] ![Vitest][Vitest.badge]
+![Github][github.badge] ![Node.JS][nodejs.badge] ![TypeScript][typeScript.badge] ![Fastify][Fastify.badge] ![SQLite][SQLite.badge] ![Vitest][Vitest.badge]
 ----
 <br />
 
@@ -62,7 +62,7 @@ Overall, this project was a great learning experience that allowed me to work wi
 
 Below are the step-by-step instructions for running the project and accessing the endpoints specified throughout this document:
 
-1. Create a `.env` file with NODE_ENV and DATABASE_URL environment variable (check the example for constructing this environment variables file ".env.example")
+1. Create a `.env` file with NODE_ENV and DATABASE_URL environment variable (check the example for constructing this environment variables file "[.env.example]")
 2. Install npm packages:<br />
     + `npm install`
 3. Run the command tsup to transpile the TypeScript code to JavaScript. This will generate the JavaScript files in the ./build directory:<br />
@@ -196,10 +196,13 @@ To run tests, use the following command:
 `npm run test`
 
 > **Warning** <br />
-> To run tests, it's mandatory to create a .env.test file that will be used alongside vittest (check the example for constructing this environment variables file ".env.test.example")
+> To run tests, it's mandatory to create a .env.test file that will be used alongside vittest (check the example for constructing this environment variables file "[.env.test.example]")
 
 [github.badge]: https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white
 [nodejs.badge]: https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white
 [typeScript.badge]: https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=TypeScript&logoColor=white
 [Fastify.badge]: https://img.shields.io/badge/fastify-202020?style=for-the-badge&logo=fastify&logoColor=white
+[SQLite.badge]: https://img.shields.io/badge/SQLite-003B57.svg?style=for-the-badge&logo=SQLite&logoColor=white
 [Vitest.badge]: https://img.shields.io/badge/Vitest-6E9F18.svg?style=for-the-badge&logo=Vitest&logoColor=white
+[.env.example]: .env.example
+[.env.test.example]: .env.test.example
