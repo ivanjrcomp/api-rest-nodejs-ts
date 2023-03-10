@@ -69,7 +69,8 @@ Below are the step-by-step instructions for running the project and accessing th
     + `node run build`
 4. Once the transpilation is complete, to start the server and access the endpoints, run the following code:<br />
     + `node ./build/server.js`
-
+5. Access API Documentation on your browser:
+    +  `http://localhost:3333/docs`
 <br />
 
 ## **API Endpoint Reference**

@@ -17,17 +17,15 @@ app.register(fastifySwagger, {
       description:
         'This REST API project is designed for educational purposes only, to showcase the implementation of TypeScript, Zod, Knex, and Fastify in a web application',
       version: '1.0.0',
-      contact: { name: 'Ivan Coimbra', url: 'https://github.com/ivanjrcomp' },
+      contact: { name: 'Ivan Coimbra' },
+    },
+    externalDocs: {
+      url: 'https://github.com/ivanjrcomp/api-rest-nodejs-ts',
+      description: 'More info here!',
     },
     tags: [{ name: 'Transactions', description: 'Transactions routes' }],
   },
   stripBasePath: true,
-  swagger: {
-    basePath: '/v1',
-    schemes: ['http', 'https'],
-    consumes: ['application/json'],
-    produces: ['application/json'],
-  },
 })
 
 const buffer = fs.readFileSync('favicon.png')
@@ -35,7 +33,6 @@ const buffer = fs.readFileSync('favicon.png')
 // eslint-disable-next-line
 app.register(fastifySwaggerUi, {
   routePrefix: '/docs',
-
   theme: {
     favicon: [
       {
@@ -50,12 +47,11 @@ app.register(fastifySwaggerUi, {
   uiConfig: {
     deepLinking: true,
     layout: 'BaseLayout',
-    showExtensions: false,
+    showExtensions: true,
     displayRequestDuration: true,
     docExpansion: 'list',
-    url: 'http://localhost:3333/docs',
   },
-  staticCSP: false,
+  staticCSP: true,
   transformStaticCSP: (header) => header,
   transformSpecification: (swaggerObject, request, reply) => {
     return swaggerObject
