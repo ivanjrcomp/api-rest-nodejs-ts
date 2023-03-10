@@ -10,7 +10,7 @@
 <div align="center">
 
 # **Bank transactions**<br />
-![Github][github.badge] ![Node.JS][nodejs.badge] ![TypeScript][typeScript.badge] ![Fastify][Fastify.badge] ![SQLite][SQLite.badge] ![Vitest][Vitest.badge]
+![Github][github.badge] ![Node.JS][nodejs.badge] ![TypeScript][typeScript.badge] ![Fastify][Fastify.badge] ![SQLite][SQLite.badge] ![Vitest][Vitest.badge] ![Swagger][Swagger.badge]
 ----
 <br />
 
@@ -205,5 +205,6 @@ To run tests, use the following command:
 [Fastify.badge]: https://img.shields.io/badge/fastify-202020?style=for-the-badge&logo=fastify&logoColor=white
 [SQLite.badge]: https://img.shields.io/badge/SQLite-003B57.svg?style=for-the-badge&logo=SQLite&logoColor=white
 [Vitest.badge]: https://img.shields.io/badge/Vitest-6E9F18.svg?style=for-the-badge&logo=Vitest&logoColor=white
+[Swagger.badge]: https://img.shields.io/badge/Swagger-85EA2D.svg?style=for-the-badge&logo=Swagger&logoColor=black
 [.env.example]: .env.example
 [.env.test.example]: .env.test.example
